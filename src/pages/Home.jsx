@@ -8,6 +8,7 @@ const Home = () => {
   const [loading, setLoading] = useState(false);
   const [posts, setPosts] = useState([]);
 
+  //setching product data
   async function fetchProductData() {
     setLoading(true);
 
