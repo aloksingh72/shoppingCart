@@ -22,7 +22,7 @@ const Home = () => {
     }
     setLoading(false);
   }
-
+//useEfect
   useEffect(() => {
     fetchProductData();
   }, []);
