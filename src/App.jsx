@@ -14,6 +14,7 @@ return (
       <Navbar/>
     </div>
     <Routes>
+      //home path
       <Route path="/" element= {<Home/>} />
       <Route path="/cart" element= {<Cart/>} />
     </Routes>
