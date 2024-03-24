@@ -29,6 +29,7 @@ const Home = () => {
 
   return (
     <div>
+
       {loading ? (
         <Spinner />
       ) : posts.length > 0 ? (
@@ -39,6 +40,7 @@ const Home = () => {
         </div>
       ) : (
         <div>
+          //error handler
           <p>No Data Found</p>
         </div>
       )}
