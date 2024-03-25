@@ -16,6 +16,7 @@ return (
     <Routes>
       //home path
       <Route path="/" element= {<Home/>} />
+      //cart path
       <Route path="/cart" element= {<Cart/>} />
     </Routes>
   </div>
