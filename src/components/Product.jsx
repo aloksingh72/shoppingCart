@@ -15,6 +15,7 @@ const Product = ({ post }) => {
         <p>{post.price}</p>
       </div>
       <div>
+        //button
         <button>{false ? <p>Remove Item</p> : <p>Add to Cart</p>}</button>
       </div>
     </div>
