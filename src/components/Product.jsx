@@ -10,7 +10,7 @@ const Product = ({ post }) => {
       <div>
         <img src={post.image} />
       </div>
-
+// new message
       <div>
         <p>{post.price}</p>
       </div>
