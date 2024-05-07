@@ -4,6 +4,7 @@ import Product from "../components/Product";
 
 
 const Home = () => {
+  // fake api strore response
   const API_URL = "https://fakestoreapi.com/products";
   const [loading, setLoading] = useState(false);
   const [posts, setPosts] = useState([]);
