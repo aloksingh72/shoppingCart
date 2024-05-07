@@ -40,7 +40,7 @@ const Home = () => {
         </div>
       ) : (
         <div>
-          //error handler
+          //In case of no data found then
           <p>No Data Found</p>
         </div>
       )}
