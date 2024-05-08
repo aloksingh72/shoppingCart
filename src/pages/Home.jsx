@@ -4,12 +4,12 @@ import Product from "../components/Product";
 
 
 const Home = () => {
-  // fake api strore response
+  // fake api store response
   const API_URL = "https://fakestoreapi.com/products";
   const [loading, setLoading] = useState(false);
   const [posts, setPosts] = useState([]);
 
-  //setching product data
+  //fetching product data
   async function fetchProductData() {
     setLoading(true);
 
