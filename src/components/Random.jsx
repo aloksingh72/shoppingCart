@@ -8,6 +8,7 @@ const CodeBlocks = ({
     position, heading, subheading, ctabtn1, ctabtn2, codeblock, backgroudGradient, codeColor
 }) => {
   return (
+    // this is a random file of another program
     <div className={`flex ${position} my-20 justify-between flex-col gap-10`}>
       
     {/*Section 1*/}
